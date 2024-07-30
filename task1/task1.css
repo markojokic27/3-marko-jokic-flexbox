@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  margin: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  justify-content: center;
+}
+.container__box{
+  flex:1;
+  min-width: 264px;
+  max-width: 264px;
+  min-height: 264px;
+  width: calc(25% - 30px);
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  border: 1px solid #090808;
+  
+}
+.container__img{
+  object-fit: contain;
+}
